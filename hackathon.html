@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHMAS: Smart Hospital Multi-Agent System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- New Patient Admission -->
+        <div class="section">
+            <h2>New Patient Admission</h2>
+            <form id="patient-form">
+                <label for="name">Patient Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="symptoms">Symptoms:</label>
+                <input type="text" id="symptoms" name="symptoms">
+
+                <label for="duration">Symptom Duration (hours):</label>
+                <input type="number" id="duration" name="duration">
+            </form>
+            <div class="d">
+                <button class="button1">SUBMIT</button>
+            </div>
+        </div>
+
+        <!-- Vital Signs -->
+        <div class="section">
+            <h2>Vital Signs</h2>
+            <p>Systolic BP: <span id="bp-systolic">120</span></p>
+            <p>Diastolic BP: <span id="bp-diastolic">80</span></p>
+            <p>Heart Rate: <span id="heart-rate">80 bpm</span></p>
+        </div>
+
+        <!-- Patient Summary -->
+        <div class="section">
+            <h2>Patient Summary</h2>
+            <p>Triage Level: <span id="triage-level">3 - Urgent</span></p>
+            <p>Department: <span id="department">Cardiology</span></p>
+            <p>Priority Score: <span id="priority-score">30.4</span></p>
+        </div>
+
+        <!-- System Execution Log -->
+        <div class="section">
+            <h2>System Execution Log</h2>
+            <div id="execution-log"></div>
+        </div>
+
+        <!-- Doctor Status -->
+        <div class="section">
+            <h2>Doctor Status</h2>
+            <div id="doctor-status"></div>
+        </div>
+
+        <!-- Bed Status -->
+        <div class="section">
+            <h2>Bed Status</h2>
+            <p>Emergency: Total: <span id="beds-emergency-total">2</span>, Available: <span id="beds-emergency-available">2</span></p>
+            <p>ICU: Total: <span id="beds-icu-total">2</span>, Available: <span id="beds-icu-available">2</span></p>
+            <p>Ward: Total: <span id="beds-ward-total">2</span>, Available: <span id="beds-ward-available">2</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
