@@ -1,0 +1,195 @@
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Club - Dhanalakshmi Srinivasan College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>DS AI Club</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-nav-link active">Home</a>
+        <a href="about.html" class="mobile-nav-link">About</a>
+        <a href="events.html" class="mobile-nav-link">Events</a>
+        <a href="projects.html" class="mobile-nav-link">Projects</a>
+        <a href="team.html" class="mobile-nav-link">Team</a>
+        <a href="resources.html" class="mobile-nav-link">Resources</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>AI Club - Dhanalakshmi Srinivasan College</h1>
+            <h2>Exploring the Future of Artificial Intelligence</h2>
+            <p class="tagline">Innovating Tomorrow with AI Today</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn">Join Club</a>
+                <a href="events.html" class="btn">View Events</a>
+                <a href="projects.html" class="btn">Our Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="featured">
+        <div class="container">
+            <h2>What We Do</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Workshops</h3>
+                    <p>Regular ML & AI workshops</p>
+                    <a href="events.html" class="card-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community</h3>
+                    <p>Connect with AI enthusiasts</p>
+                    <a href="team.html" class="card-link">Meet Team</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Projects</h3>
+                    <p>Innovative AI projects</p>
+                    <a href="projects.html" class="card-link">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Club - Dhanalakshmi Srinivasan College. All rights reserved.</p>
+            <p>Established: 1996 (Women's College), 2009 (University) | Location: Tiruchirappalli, Tamil Nadu</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - AI Club | Dhanalakshmi Srinivasan College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>DS AI Club</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="resources.html" class="nav-link">Resources</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="about.html" class="mobile-nav-link active">About</a>
+        <a href="events.html" class="mobile-nav-link">Events</a>
+        <a href="projects.html" class="mobile-nav-link">Projects</a>
+        <a href="team.html" class="mobile-nav-link">Team</a>
+        <a href="resources.html" class="mobile-nav-link">Resources</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- About Section -->
+    <section class="page-content">
+        <div class="container">
+            <h1>About AI Club</h1>
+            
+            <div class="mission-vision">
+                <div class="card">
+                    <h2>Our Mission</h2>
+                    <p>To foster a vibrant ecosystem of learning, innovation, and collaboration in the rapidly evolving domain of Artificial Intelligence</p>
+                </div>
+                <div class="card">
+                    <h2>Our Vision</h2>
+                    <p>To become a hub for AI excellence within the institute by bridging academic learning with real-world applications</p>
+                </div>
+            </div>
+
+            <div class="objectives">
+                <h2>Our Objectives</h2>
+                <div class="grid">
+                    <div class="card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Expert Learning</h3>
+                        <p>Learn AI/ML from industry experts</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Practical Applications</h3>
+                        <p>Build practical AI applications</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Competitions</h3>
+                        <p>Participate in competitions and hackathons</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-users"></i>
+                        <h3>Networking</h3>
+                        <p>Network with professionals and researchers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Club - Dhanalakshmi Srinivasan College. All rights reserved.</p>
+            <p>Established: 1996 (Women's College), 2009 (University) | Location: Tiruchirappalli, Tamil Nadu</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
